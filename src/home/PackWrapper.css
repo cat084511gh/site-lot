@@ -1,7 +1,0 @@
-.pack-wrapper {
-  display: flex;
-  justify-content: center;
-}
-.pack-wrapper > * {
-  margin: 10px;
-}

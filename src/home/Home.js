@@ -1,11 +1,12 @@
 import PackWrapper from "./PackWrapper";
-import PackLink from "./PackLink";
+import Pack from "./Pack";
 
 function Home() {
   return (
     <PackWrapper>
-      <PackLink to="sample" />
-      <PackLink to="B" />
+      <Pack name="sample" />
+      <Pack name="B" />
+      <Pack name="A" />
     </PackWrapper>
   );
 }

@@ -5,9 +5,10 @@ import Home from "./home/Home";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />,
     </Routes>
   );
 }
-
 export default App;
+
+//<Route path="/pack/*" element={<PackShow />} />
