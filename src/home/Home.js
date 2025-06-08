@@ -1,13 +1,15 @@
 import PackWrapper from "./PackWrapper";
-import Pack from "./Pack";
+import PackLink from "./PackLink";
 
 function Home() {
   return (
-    <PackWrapper>
-      <Pack name="sample" />
-      <Pack name="B" />
-      <Pack name="A" />
-    </PackWrapper>
+    <div className="flex items-center justify-center min-h-screen">
+      <PackWrapper>
+        <PackLink name="sample" />
+        <PackLink name="B" />
+        <PackLink name="A" />
+      </PackWrapper>
+    </div>
   );
 }
 
