@@ -1,6 +1,6 @@
 const PackWrapper = ({ children }) => {
   return (
-    <div class="flex space-x-4 items-center justify-center rounded-xl py-10 px-20 shadow-lg text-white bg-gradient-to-br from-white via-rose-200 to-rose-500">
+    <div class="flex space-x-4 items-center justify-center rounded-xl min-h-screen w-screen shadow-lg text-white bg-[radial-gradient(ellipse_at_bottom_center,_var(--tw-gradient-stops))] from-white via-gray-300 to-gray-500 bg-[length:120%_100%]">
       {children}
     </div>
   );

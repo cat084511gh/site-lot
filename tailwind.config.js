@@ -14,6 +14,9 @@ module.exports = {
       animation: {
         pop: "pop 400ms ease-in-out",
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],
