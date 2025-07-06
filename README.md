@@ -17,4 +17,4 @@
 
 ### start development
 
-- npm start
+- `npm start`
