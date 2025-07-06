@@ -10,7 +10,7 @@ const PackLink = ({ name }) => {
   const handleClick = () => {
     setAnimate(true);
     setTimeout(() => {
-      navigate(`/pack/${name}`);
+      navigate(`/pack`, { state: { packName: name } });
     }, 500);
   };
 
