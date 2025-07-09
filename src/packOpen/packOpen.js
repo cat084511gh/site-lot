@@ -1,4 +1,3 @@
-import Pack from "../common/Pack";
 import React from "react-router-dom";
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
