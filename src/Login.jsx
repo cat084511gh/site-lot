@@ -33,7 +33,7 @@ const Login = ({ setLoggedIn }) => {
 
   return (
     <div className="max-w-sm mx-auto mt-10">
-      <h2 className="text-lg font-bold">ログイン</h2>
+      <h2 className="text-lg font-bold">ログイン admin:123456</h2>
       <input
         value={username}
         onChange={(e) => setUsername(e.target.value)}
