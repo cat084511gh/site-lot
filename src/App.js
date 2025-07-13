@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProtectedLayout from "./ProtectedLayout";
 import Login from "./Login";
+import Logout from "./Logout";
 import Home from "./home/Home";
 import PackShow from "./packShow/packShow";
 import PackOpen from "./packOpen/packOpen";
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/login" element={<Login setLoggedIn={setLoggedIn} />} />
       <Route element={<ProtectedLayout />}>
+        <Route path="/logout" element={<Logout />} />
         <Route path="/" element={<Home />} />,
         <Route path="/pack" element={<PackShow />} />
         <Route path="/open" element={<PackOpen />} />
