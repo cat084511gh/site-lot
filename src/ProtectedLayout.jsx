@@ -6,7 +6,7 @@ const ProtectedLayout = () => {
   const location = useLocation();
 
   useEffect(() => {
-    const loggedInFlag = localStorage.getItem("loggedIn") === "true";
+    const loggedInFlag = localStorage.getItem("loggedIn") !== null;
     setLoggedIn(loggedInFlag);
   }, []);
 

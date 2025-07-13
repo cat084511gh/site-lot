@@ -24,7 +24,7 @@ const Login = ({ setLoggedIn }) => {
       if (!res.ok) throw new Error("認証失敗");
 
       setLoggedIn(true);
-      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("loggedIn", username);
       navigate("/");
     } catch (e) {
       setError(e.message);
