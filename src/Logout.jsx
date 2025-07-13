@@ -26,7 +26,7 @@ const Logout = ({ setLoggedIn }) => {
   return (
     <div className="max-w-sm mx-auto mt-10">
       <p>ログアウトしました</p>
-      <a href="/"></a>
+      <a href="/">TOPへ戻る</a>
     </div>
   );
 };
